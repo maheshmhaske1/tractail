@@ -24,7 +24,7 @@ app.use(
     cors({
       origin: [
         "http://localhost:3000",
-        "https://track01.vercel.app/",
+        "https://track01.vercel.app",
         "http://127.0.0.1:5500",
         "http://localhost:5500",
         "https://www.demotour.shivila.online",
