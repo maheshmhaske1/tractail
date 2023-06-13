@@ -22,14 +22,8 @@ app.use(express.json());
 // app.use( cors() );
 app.use(
     cors({
-      origin: [
-        "http://localhost:3000",
+      origin: 
         "https://track01.vercel.app",
-        "http://127.0.0.1:5500",
-        "http://localhost:5500",
-        "https://www.demotour.shivila.online",
-        "https://www.dekhoindia.shivila.online",
-      ],
       "Access-Control-Allow-Origin": "*",
       "Access-Control-Allow-Credentials": true,
     })
